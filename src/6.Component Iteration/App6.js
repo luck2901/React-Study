@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import IterationSample from './6.Component Iteration/IterationSample';
 
-class App extends Component{
+class App6 extends Component{
     render(){
         return(
             <IterationSample/>
@@ -9,4 +9,4 @@ class App extends Component{
     }
 }
 
-export default App;
+export default App6;
