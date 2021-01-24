@@ -1,11 +1,12 @@
 import './App.css';
-import MyComponent from './MyComponent';
+//import MyComponent from './MyComponent';
+import EventPractice from './EventPractice';
 import React, { Component } from 'react';
 
 class App extends Component{
   render(){
     return(
-      <MyComponent  age = {25}/>
+      <EventPractice/>
     )
   }
 }
