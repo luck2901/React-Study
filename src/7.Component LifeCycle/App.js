@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import LifeCycleSample from './7.Component LifeCycle/LifeCycleSample'
+import LifeCycleSample from './LifeCycleSample'
 
 function getRandomColor(){
     return '#' + Math.floor(Math.random() * 16777215).toString(16);

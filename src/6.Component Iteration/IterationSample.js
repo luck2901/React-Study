@@ -25,10 +25,12 @@ class IterationSample extends Component{
         //         ...names.slice(index + 1, names.length)
         //     ]
         // })
+        //slice 사용.
         const {names} = this.state;
         this.setState({
             names:names.filter((item,i) =>i !== index)
         });
+        //filter 사용.
     }
     render(){
         const nameList = this.state.names.map(
